@@ -54,7 +54,7 @@ const App: React.FC = () => {
               <Toolbar sx={{ gap: 2 }}>
                 <SideBar drawerOpen={drawerOpen} toggleDrawer={toggleDrawer} items={menuItems} />
                 <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                  Sistema de oferta académica
+                  Oferta Académica
                 </Typography>
                 <PuceLogo theme={theme}/>
               </Toolbar>

@@ -1,18 +1,16 @@
 // src/componetns/Footer.tsx
 
 import React, { ReactElement } from "react";
-import { Box, Container, Grid } from "@mui/material";
+import { AppBar, Container } from "@mui/material";
 import Copyright from "./Copyright";
 
 export const Footer: React.FC = (): ReactElement => {
   return (
-    <Box>
-      <Container maxWidth="lg">
-        <Grid container direction="column" alignItems="center">
+    <AppBar position="fixed" sx={{ top: 'auto', bottom: 0 }}>
+      <Container>
           <Copyright />
-        </Grid>
       </Container>
-    </Box>
+    </AppBar>
   );
 };
 

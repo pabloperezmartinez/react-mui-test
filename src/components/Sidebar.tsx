@@ -27,7 +27,7 @@ const SideBar: React.FC<SideBarProps> = ({ drawerOpen, toggleDrawer, items }) =>
         aria-label="menu"
         onClick={toggleDrawer(true)}
       >
-        <MenuIcon />
+        <MenuIcon/>
       </IconButton>
       <Drawer
         anchor="left"
